@@ -2,6 +2,7 @@
 
 #necessary packages installation
 apt update
+export DEBIAN_FRONTEND=noninteractive
 apt install -y vim iotop tcpdump redis-server net-tools iptables-persistent
 
 #private network configuration
